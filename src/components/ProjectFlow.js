@@ -5,11 +5,28 @@ export default function ProjectFlow() {
   const myProjects = [
     { 
       title: "CaptionCast AI", 
-      desc: "An automated podcast-to-video workflow. Transcribes audio, clips highlights, and generates styled captions for social media.",
-      tag: "AI / Video",
+      desc: "An automated podcast to video workflow. Transcribes audio, clips highlights, and generates styled captions for social media.",
+      tag: "AI_Video",
       link: "https://github.com/pavithradyn/podcast-caption-generator" // Replace with your actual link
     },
+
+    { 
+    title: "YellowBus Tracker", 
+    desc: "STAY TUNED!",
+    tag: "Full Stack_Maps",
+    link: "https://github.com/pavithradyn"
+  },
+
+ { 
+    title: "Podcasting Website", 
+    desc: "STAY TUNED!",
+    tag: "A modern tech_stack",
+    link: "https://github.com/pavithradyn"
+  },
+
   ];
+  
+  
 
   return (
     <section id="projects" className="max-w-3xl mx-auto py-20 px-6">
@@ -31,8 +48,7 @@ export default function ProjectFlow() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               whileHover={{ y: -10, borderColor: "#a855f7" }} // Lifts and changes border color
-              className="p-8 bg-[#1a1a1a] rounded-2xl border border-gray-800 transition-all duration-300 shadow-xl"
-            >
+className="p-8 bg-white/5 backdrop-blur-lg rounded-2xl border border-gray-800 transition-all duration-300 shadow-xl"            >
               <span className="text-purple-400 text-sm font-mono mb-2 block">{project.tag}</span>
               <h3 className="text-2xl font-bold mb-4 group-hover:text-purple-400 transition-colors">
                 {project.title}

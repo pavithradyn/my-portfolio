@@ -8,7 +8,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         className="text-5xl md:text-7xl font-bold mb-6"
       >
-        Hi, I'm <span className="text-purple-400">Pavithra</span>
+        Hi, I'm <span className="text-purple-400">Pavithra!</span>
       </motion.h1>
       <motion.p 
         initial={{ opacity: 0 }}
@@ -16,7 +16,7 @@ export default function Hero() {
         transition={{ delay: 0.2 }}
         className="text-gray-400 text-xl max-w-2xl mx-auto"
       >
-        Building high-performance digital experiences and scalable web applications.
+        Building high performance digital experiences and scalable web applications.
       </motion.p>
     </section>
   );
