@@ -10,17 +10,17 @@ export default function ProjectFlow() {
       link: "https://github.com/pavithradyn/podcast-caption-generator" // Replace with your actual link
     },
 
-    { 
-    title: "YellowBus Tracker", 
-    desc: "STAY TUNED!",
-    tag: "Full Stack_Maps",
-    link: "https://github.com/pavithradyn"
+     { 
+    title: "Podcasting Website", 
+    desc: "A modern podcast website that showcases episodes with interactive UI, smooth animations, and easy access to content.",
+    tag: "A modern tech_stack",
+    link: "https://github.com/pavithradyn/podcast-website"
   },
 
  { 
-    title: "Podcasting Website", 
+    title: "YellowBus Tracker", 
     desc: "STAY TUNED!",
-    tag: "A modern tech_stack",
+    tag: "Full Stack_Maps",
     link: "https://github.com/pavithradyn"
   },
 
