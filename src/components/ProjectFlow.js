@@ -18,7 +18,7 @@ export default function ProjectFlow() {
   },
 
  { 
-    title: "soulscript Ai", 
+    title: "Soulscript Ai", 
     desc: "SoulScript AI is a fullstack AI application leveraging Natural Language Processing to transform raw user prompts into deep, evocative narratives with a distinctively human touch.",
     tag: "Fullstack NLP narrative engine",
     link: "https://github.com/pavithradyn/soulscript-ai"
