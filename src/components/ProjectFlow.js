@@ -18,10 +18,10 @@ export default function ProjectFlow() {
   },
 
  { 
-    title: "YellowBus Tracker", 
-    desc: "STAY TUNED!",
-    tag: "Full Stack_Maps",
-    link: "https://github.com/pavithradyn"
+    title: "soulscript Ai", 
+    desc: "SoulScript AI is a fullstack AI application leveraging Natural Language Processing to transform raw user prompts into deep, evocative narratives with a distinctively human touch.",
+    tag: "Fullstack NLP narrative engine",
+    link: "https://github.com/pavithradyn/soulscript-ai"
   },
 
   ];
